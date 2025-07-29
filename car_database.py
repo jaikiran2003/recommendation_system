@@ -1,8 +1,8 @@
 from pymongo import MongoClient
 
-client = MongoClient("mongodb://localhost:27017/")
-db = client["database"]
-collection = db["car_dataset"]
+client = MongoClient("")
+db = client[""]
+collection = db[""]
 
 def search_cars(filters: dict = {}, limit: int = None, debug: bool = False):
     """
